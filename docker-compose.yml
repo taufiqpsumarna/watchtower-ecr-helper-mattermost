@@ -1,0 +1,17 @@
+---
+#More argument: https://containrrr.dev/watchtower/arguments/
+version: "3.9"
+services:
+  watchtower:
+    image: containrrr/watchtower:1.7.1
+    container_name: watchtower
+    restart: always
+    env_file:
+      - .env
+    ports: #Expose port for enable HTTP Mode (optional)
+      - "8080:8080"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock #Docker Sock
+      - ./aws-ecr-credentials-helper/config/config.json:/config.json #Docker Config
+      - ./aws-ecr-credentials-helper/docker-credential-ecr-login:/go/bin #docker-credential-ecr-login binary v0.8.0
+      - ${HOME}/.aws:/./aws

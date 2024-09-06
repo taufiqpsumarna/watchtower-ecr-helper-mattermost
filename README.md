@@ -4,11 +4,11 @@
 
 This repository contains a setup for Watchtower running in both HTTP-API and polling modes, integrated with AWS ECR Credentials Helper and Mattermost Channel notifications.
 
-## Watchtower
+## Watchtower (v1.7.1)
 
 Watchtower is a tool that automates the process of updating Docker containers. When a new image is pushed to a Docker Hub or private registry, Watchtower pulls the updated image, stops the currently running container, and redeploys it with the same configuration.
 
-## AWS ECR Credentials Helper
+## AWS ECR Credentials Helper (v0.8.0)
 
 The Amazon ECR Docker Credential Helper simplifies authentication with the Amazon Elastic Container Registry (ECR) by automating the process of managing credentials for Docker.
 
