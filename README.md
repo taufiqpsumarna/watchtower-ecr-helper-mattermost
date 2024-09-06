@@ -1,6 +1,6 @@
 # Watchtower ECR Helper with Mattermost Notification
 
-![diagram](img\diagram.png)
+![diagram](img/diagram.png)
 
 This repository contains a setup for Watchtower running in both HTTP-API and polling modes, integrated with AWS ECR Credentials Helper and Mattermost Channel notifications.
 
@@ -76,7 +76,7 @@ aws configure
 You'll need your AWS Access Key ID, Secret Access Key, region, and output format.
 
 ### 4. Mattermost Setup
-![Mattermost Notification](img\mattermost-notification.png)
+![Mattermost Notification](img/mattermost-notification.png)
 
 To enable notifications in Mattermost, create a channel, an incoming webhook, and (optionally) a bot account. Follow the [Mattermost webhook setup guide](https://docs.mattermost.com/developer/webhooks-incoming.html).
 
