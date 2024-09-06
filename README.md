@@ -13,6 +13,7 @@ Watchtower is a tool that automates the process of updating Docker containers. W
 The Amazon ECR Docker Credential Helper simplifies authentication with the Amazon Elastic Container Registry (ECR) by automating the process of managing credentials for Docker.
 
 ## Version Info
+- Ubuntu 24.04.1 LTS
 - Docker Engine - Community v27.2.0
 - AWS CLI - v2.17.40
 - Amazon ECR Credential Helper - v0.8.0
