@@ -1,9 +1,8 @@
 {
-	"credsStore" : "ecr-login",
-	"auths" : {
-	  "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com" : {}
+	"auths": {
+		"<AWS_ACCOUNT_ID>.dkr.ecr.<AWS_REGION>.amazonaws.com": {
+			"auth": " "
+		}
 	},
-	"credHelpers": {
-	  "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com" : "ecr-login"
-	}
- }
+	"credsStore": "ecr-login"
+}
