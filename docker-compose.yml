@@ -3,7 +3,7 @@
 version: "3.9"
 services:
   watchtower:
-    image: containrrr/watchtower:latest
+    image: taufiq14s/watchtower-ecr:latest
     container_name: watchtower
     restart: always
     env_file:
