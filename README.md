@@ -153,6 +153,7 @@ WATCHTOWER_HTTP_API_UPDATE=true
 
 1. This setup uses both HTTP API and polling mode. You can choose one by adjusting the configuration in your `.env` file as shown above.
 2. Notifications to Mattermost are optional but can be set up for alerting when containers are updated.
+3. Docker Image taufiq14s/watchtower-ecr:latest [Project Repository](https://github.com/taufiqpsumarna/watchtower-ecr)
 
 ## References
 
